@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+$mainBackgroundColor: #201f2e;
+$footerBackgroundColor: #0e0d13;
+$mainTextColor: #fff;
+$secondaryTextColor: #c9cfc1;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 15px 24px 16px 24px;
+  border: none;
+  cursor: pointer;
+  background-color: #44414e;
+  outline: inherit;
+  color: #c4c1cf;
+  &:active {
+    background-color: #353240;
+    color: #e9e6f2;
+  }
+}
+
+// classes --------------------------
+
+.wrapper {
+  background: $mainBackgroundColor;
+  height: 832px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  height: 162px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  &__container {
+    padding: 32px 32px 0 32px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: $mainTextColor;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    color: $secondaryTextColor;
+  }
+  &__text {
+    color: aquamarine;
+  }
+}
+
+.main {
+  &__container {
+    padding: 0 32px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: $footerBackgroundColor;
+  width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  height: 96px;
+  &__container {
+    padding: 24px 32px;
+  }
+  &__button {
+    font-weight: 500;
+    line-height: 94.2%;
+    border-radius: 32px;
+  }
+}
