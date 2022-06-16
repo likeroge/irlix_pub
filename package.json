@@ -1,0 +1,16 @@
+{
+  "name": "irlix-html-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://likeroge.github.io/irlix_pub/",
+  "scripts": {
+    "dev": "sass --watch scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}
