@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+$mainBackgroundColor: #201f2e;
+$footerBackgroundColor: #0e0d13;
+$mainTextColor: #fff;
+$secondaryTextColor: #c9cfc1;
+$mainButtonColor: #44414e;
+$mainButtonTextColor: #c4c1cf;
+$pressedButtonColor: #353240;
+$pressedButtonColor: #e9e6f2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 15px 24px 16px 24px;
+  border: none;
+  cursor: pointer;
+  background-color: #44414e;
+  outline: inherit;
+  color: #c4c1cf;
+  &:active {
+    background-color: #353240;
+    color: #e9e6f2;
+  }
+}

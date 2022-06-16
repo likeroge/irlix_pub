@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: $footerBackgroundColor;
+  width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  height: 96px;
+  &__container {
+    padding: 24px 32px;
+  }
+  &__button {
+    font-weight: 500;
+    line-height: 94.2%;
+    border-radius: 32px;
+  }
+}
